@@ -1,0 +1,99 @@
+zaza@Dell:~$ ls 
+Bureau   Documents         Images   Musique  snap             Vidéos
+Desktop  examples.desktop  Modèles  Public   Téléchargements
+zaza@Dell:~$ ls Documents
+FindThePrecious.com
+zaza@Dell:~$ ls Images
+fd.jpg
+zaza@Dell:~$ pwd
+/home/zaza
+zaza@Dell:~$ cd Images
+zaza@Dell:~/Images$ pwd
+/home/zaza/Images
+zaza@Dell:~/Images$ cd ..
+zaza@Dell:~$ pwd
+/home/zaza
+zaza@Dell:~$ cd ..
+zaza@Dell:/home$ cd ..
+zaza@Dell:/$ pwd
+/
+zaza@Dell:/$ ls
+bin    dev   initrd.img      lib64       mnt   root  snap      sys  var
+boot   etc   initrd.img.old  lost+found  opt   run   srv       tmp  vmlinuz
+cdrom  home  lib             media       proc  sbin  swapfile  usr  vmlinuz.old
+zaza@Dell:/$ cd home/zaza
+zaza@Dell:~$ pwd
+/home/zaza
+zaza@Dell:~$ cd Documents
+zaza@Dell:~/Documents$ cd
+zaza@Dell:~$ pwd
+/home/zaza
+zaza@Dell:~$ cd Images 
+zaza@Dell:~/Images$ cd ~/Documents
+zaza@Dell:~/Documents$ pwd
+/home/zaza/Documents
+zaza@Dell:~/Documents$ ls.
+
+La commande « ls. » n'a pas été trouvée, voulez-vous dire :
+
+  commande « lsd » du snap lsd (0.16.0)
+  commande « lsc » du deb livescript
+  commande « ls » du deb coreutils
+  commande « lsh » du deb lsh-client
+  commande « lsw » du deb suckless-tools
+  commande « lsm » du deb lsm
+
+Voir « snap info <nomdusnap> » pour des versions supplémentaires.
+
+zaza@Dell:~/Documents$ ls .
+FindThePrecious.com
+zaza@Dell:~/Documents$ ls /home
+zaza
+zaza@Dell:~/Documents$ cd ..
+zaza@Dell:~$ ls /bin
+bash           fuser       nisdomainname  stty
+brltty         fusermount  ntfs-3g        su
+bunzip2        getfacl     ntfs-3g.probe  sync
+busybox        grep        ntfscat        systemctl
+bzcat          gunzip      ntfscluster    systemd
+bzcmp          gzexe       ntfscmp        systemd-ask-password
+bzdiff         gzip        ntfsfallocate  systemd-escape
+bzegrep        hciconfig   ntfsfix        systemd-hwdb
+bzexe          hostname    ntfsinfo       systemd-inhibit
+bzfgrep        ip          ntfsls         systemd-machine-id-setup
+bzgrep         journalctl  ntfsmove       systemd-notify
+bzip2          kbd_mode    ntfsrecover    systemd-sysusers
+bzip2recover   kill        ntfssecaudit   systemd-tmpfiles
+bzless         kmod        ntfstruncate   systemd-tty-ask-password-agent
+bzmore         less        ntfsusermap    tar
+cat            lessecho    ntfswipe       tempfile
+chacl          lessfile    open           touch
+chgrp          lesskey     openvt         true
+chmod          lesspipe    pidof          udevadm
+chown          ln          ping           ulockmgr_server
+chvt           loadkeys    ping4          umount
+cp             login       ping6          uname
+cpio           loginctl    plymouth       uncompress
+dash           lowntfs-3g  ps             unicode_start
+date           ls          pwd            vdir
+dd             lsblk       rbash          wdctl
+df             lsmod       readlink       which
+dir            mkdir       red            whiptail
+dmesg          mknod       rm             ypdomainname
+dnsdomainname  mktemp      rmdir          zcat
+domainname     more        rnano          zcmp
+dumpkeys       mount       run-parts      zdiff
+echo           mountpoint  sed            zegrep
+ed             mt          setfacl        zfgrep
+efibootdump    mt-gnu      setfont        zforce
+efibootmgr     mv          setupcon       zgrep
+egrep          nano        sh             zless
+false          nc          sh.distrib     zmore
+fgconsole      nc.openbsd  sleep          znew
+fgrep          netcat      ss
+findmnt        networkctl  static-sh
+zaza@Dell:~$ cd /usr/bin
+zaza@Dell:/usr/bin$ cd ~/Documents
+zaza@Dell:~/Documents$ pwd
+/home/zaza/Documents
+zaza@Dell:~/Documents$ 
